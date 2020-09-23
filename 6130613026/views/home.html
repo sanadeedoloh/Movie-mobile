@@ -1,0 +1,35 @@
+<ons-page>
+<ons-navigator swipeable id="myNavigator" page="page1.html"></ons-navigator>
+
+<template id="page1.html">
+  <ons-page id="page1">
+    <ons-carousel var="carousel" ons-postchange="console.log('Changed to ' + $event.activeIndex)" swipeable auto-scroll overscrollable>
+        <ons-carousel-item>
+          
+          <img src="img/m1.jpeg" width="375" height="550" id="m1">
+          <h1>X-Men: Dark Phoenix</h1>
+          <img src="img/c1.png" width="1000" height="150" id="m1">
+        </ons-carousel-item>
+        <ons-carousel-item>
+          <img src="img/m2.jpeg" width="375" height="550" id="m2">
+          <h1>ฉลาดเกมโกง</h1>
+          <img src="img/c2.png" width="1000" height="150" id="m1">
+        </ons-carousel-item>
+        <ons-carousel-item>
+          <img src="img/m3.jpeg" width="375" height="550" id="m3">
+          <h1>Ant-Man</h1>
+          <img src="img/c3.png" width="1000" height="150" id="m1">
+        </ons-carousel-item>
+        <ons-carousel-item>
+          <img src="img/m4.jpeg" width="375" height="550" id="m4">
+          <h1>DeadPool</h1>
+          <img src="img/c4.png" width="1000" height="150" id="m1">
+        </ons-carousel-item>
+      </ons-carousel>
+
+  </ons-page>
+</template>
+</ons-page>
+
+
+
